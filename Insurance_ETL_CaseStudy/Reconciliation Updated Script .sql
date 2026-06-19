@@ -1,3 +1,6 @@
+-- In Progress
+
+
 WITH Missing_Data_Check AS (
     SELECT DISTINCT TRIM(POL_NBR) AS Missing_Policies 
     FROM dbo.STG_POLICY
